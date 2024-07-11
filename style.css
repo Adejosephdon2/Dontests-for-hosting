@@ -217,5 +217,30 @@ td {
     .header-left {
         display: none;
     }
+    .main-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sidebar-brand {
+        border-bottom: 1px solid #8b9db6;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #upload-section {
+        border-bottom: 1px solid #8b9db6;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+    #upload-section:last-child {
+    border-bottom: none;
+    }
 
 }
